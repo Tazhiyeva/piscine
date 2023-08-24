@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.BinaryAddition(1, 1))
-	fmt.Println(piscine.BinaryAddition(1, 2))
-	fmt.Println(piscine.BinaryAddition(1, 3))
-	fmt.Println(piscine.BinaryAddition(2, 1))
-	fmt.Println(piscine.BinaryAddition(2, 2))
-	fmt.Println(piscine.BinaryAddition(1, 16))
+	fmt.Println(piscine.CamelToSnakeCase("HelloWorld"))
+	fmt.Println(piscine.CamelToSnakeCase("helloWorld"))
+	fmt.Println(piscine.CamelToSnakeCase("camelCase"))
+	fmt.Println(piscine.CamelToSnakeCase("CAMELtoSnackCASE"))
+	fmt.Println(piscine.CamelToSnakeCase("camelToSnakeCase"))
+	fmt.Println(piscine.CamelToSnakeCase("hey2"))
 }
